@@ -1,0 +1,454 @@
+@{
+    ViewData["Title"] = "Contact List";
+    Layout = "../Shared/_ContactLayout.cshtml";
+}
+@using ContactApp;
+@model IEnumerable<t_Contact>;
+
+<!-- Include SweetAlert2 libraries -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+@section Scripts {
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            loaddata();
+        });
+
+        $("#ContactPicture").change(function () {
+            var file = this.files[0];
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                $("#image").attr('src', e.target.result);
+                $("#imageName").text(file.name);
+            };
+            reader.readAsDataURL(file);
+        });
+
+        function loaddata() {
+            $.ajax({
+                url: '/Ajax/GetContacts/' +@Context.Session.GetInt32("UserId"),
+                type: 'GET',
+                success: function (response) {
+                    console.log(response);
+                    const tableBody = $("#contactTable tbody");
+                    tableBody.empty();
+                    var id = 1;
+                    response.forEach(function (contact) {
+                        const row = `<tr>
+                                <td>${id++}</td>
+                                <td>
+                                    <button type="button" class="btn btn-primary" onclick="EditContact(${contact.c_ContactId})">
+                                    📝
+                                    </button>
+                                </td>
+                                <td>
+                                    <img src="/contact_images/${contact.c_Image}" alt="img"
+                                    style="height: 50px; width: 50px; border-radius: 50%;">
+                                </td>
+                                <td>${contact.c_ContactId}</td>
+                                <td>${contact.c_ContactName}</td>
+                                <td>${contact.c_Email}</td>
+                                <td>${contact.c_Group}</td>
+                                <td>${contact.c_Address}</td>
+                                <td>${contact.c_Mobile}</td>
+                                <td>${contact.c_Status}</td>
+                                <td>
+                                    <button type="button" class="btn btn-danger" onclick="DeleteContact(${contact.c_ContactId},'${contact.c_ContactName}')">
+                                    &#x2718;
+                                    </button>
+                                </td>    
+                       
+                            </tr>`;
+
+                        tableBody.append(row);
+
+                    });
+                },
+                error: function (xhr, status, error) {
+                    $('#responseMessage').addClass("alert alert-danger");
+                    $('#responseMessage').text('Error: ' + xhr.responseText);
+                }
+            });
+        }
+
+        function savedata() {
+            @* var user=JSON.parse(sessionStorage.getItem("")); *@
+                var formData = new FormData();
+            formData.append("C_UserId",@Context.Session.GetInt32("UserId"));
+            formData.append("c_ContactName", $('#name').val());
+            formData.append("c_Email", $('#email').val());
+            formData.append("c_Address", $('#address').val());
+            formData.append("c_Mobile", $('#mobile').val());
+            formData.append("c_ContactId", $('#c_ContactId').val());
+            formData.append("ContactPicture", $('#ContactPicture')[0].files[0]);
+            let selectedGroups = [];
+            $('.group:checked').each(function () {
+                selectedGroups.push($(this).val());
+            });
+            formData.append("c_Group", selectedGroups.join(','));
+            var fileinput = $('#ContactPicture')[0].files[0];
+            if (!fileinput) {
+                formData.append("c_Image", $('#image').attr('src').split('/').pop());
+            }
+            formData.append("c_Status", $('#status').val());
+
+            $.ajax({
+                url: 'Ajax/Create/',
+                type: 'post',
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    $('#addcontact').modal('hide');
+                    loaddata();
+                    ShowAlert(response.message, 'success');
+
+                },
+                error: function (xhr, status, error) {
+                    console.log(error.message);
+                    ShowAlert(response.message, 'danger');
+
+                }
+            });
+
+        }
+
+        $('#contactForm').validate({
+            rules: {
+                name: {
+                    required: true,
+                    maxlength: 50
+                },
+                email: {
+                    required: true,
+                    email: true,
+                    maxlength: 50
+                },
+                address: {
+                    required: true,
+                    maxlength: 50
+                },
+                mobile: {
+                    required: true,
+                    digits: true,  // Ensures only numbers
+                    minlength: 10, // Ensures at least 10 digits
+                    maxlength: 10  // Ensures no more than 10 digits
+                },
+                group1: {
+                    required: true
+                },
+                status: {
+                    required: true
+                }
+            },
+            messages: {
+                name: {
+                    required: "Please enter contact name",
+                    maxlength: "Maximum length is 50 characters"
+                },
+                email: {
+                    required: "Please enter email",
+                    email: "Please enter valid email",
+                    maxlength: "Maximum length is 50 characters"
+                },
+                address: {
+                    required: "Please enter address",
+                    maxlength: "Maximum length is 50 characters"
+                },
+                mobile: {
+                    required: "Please enter mobile",
+                    digits: "Mobile numbers contains only digits",
+                    minlength: "mobile Number should be of 10 digit",
+                    maxlength: "mobile Number should be Of 10 digit",
+                },
+                group1: {
+                    required: "Please select group"
+                },
+                status: {
+                    required: "Please select status"
+                }
+            },
+            errorPlacement: function (error, element) {
+                if (element.attr("name") === "group1") {
+                    $(".group_checkbox").after(error);
+                } else {
+                    error.insertAfter(element);
+                }
+            },
+            errorClass: "error",
+            errorElement: "span",
+            submitHandler: function (form) {
+                savedata();
+            }
+        });
+
+        $('#btnsave').click(function () {
+            console.log("btn clicked");
+            if ($('#contactForm').valid()) {
+                savedata();
+            }
+        });
+
+        function clearData() {
+            @* $('#contactid').val(0); *@
+            $('#name').val('');
+            $('#email').val('');
+            $('#address').val('');
+            $('#mobile').val('');
+            $('#status').val('Favorite');
+            $('#image').attr('src', "/contact_images/image.png");
+            $('#ContactPicture').val('');
+            $('#imageName').text('Default Image');
+            $('.group').each(function () {
+                $(this).prop('checked', false);
+            });
+
+            var form = $('#contactForm');
+
+            form.validate().resetForm(); // ✅ Reset validation messages
+            form.find('.error').removeClass('error'); // ✅ Remove error styling
+
+        }
+
+        function EditContact(id) {
+            $('#addcontact').modal('show');
+            $('#exampleModalLongTitle').text('Edit Contact');
+            $('#btnsave').text('Update Contact');
+            clearData();
+            $.ajax({
+                url: '/Ajax/GetContactById/' + id,
+                type: 'GET',
+                contentType: false,
+                processData: false,
+
+                success: function (response) {
+                    console.log(response);
+                    $('#c_ContactId').val(response.c_ContactId);
+                    $('#name').val(response.c_ContactName);
+                    $('#email').val(response.c_Email);
+                    $('#address').val(response.c_Address);
+                    $('#mobile').val(response.c_Mobile);
+                    $('#status').val(response.c_Status);
+
+                    selectedGroups = response.c_Group.split(',');
+
+                    selectedGroups.forEach((value) => {
+                        $(`.group[value=${value}]`).prop('checked', true);
+                    });
+                    @* console.log(response.c_Image); *@
+                    $('#image').attr('src', "/contact_images/" + response.c_Image);
+                    $('#imageName').text(response.c_Image);
+                },
+                error: function (xhr, status, error) {
+                    console.log(error.message);
+                }
+            })
+        }
+        function DeleteContact(id, name) {
+            //using simple alert
+            @* if (confirm("Are you sure ,you wanted to delete " + name + " ?")) {
+                $.ajax({
+                    url: '/Ajax/Delete/' + id,
+                    type: 'GET',
+                    contentType: false,
+                    processData: false,
+                    success: function (response) {
+                        loaddata();
+                    },
+                    error: function (xhr, status, error) {
+                        console.log(error.message);
+                    }
+                })
+            } *@
+
+            //using sweetalert
+                Swal.fire({
+                    title: 'Are you Sure?',
+                    text: 'This action cannot be undone!',
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#d33',
+                    cancelButtonColor: '#3085d6',
+                    confirmButtonText: 'Yes, delete it!'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        $.ajax({
+                            url: '/Ajax/Delete/' + id,
+                            type: 'GET',
+                            contentType: false,
+                            processData: false,
+                            success: function (response) {
+                                loaddata();
+                                ShowAlert(response.message,'success');
+                            },
+                            error: function (xhr, status, error) {
+                                console.log(error.message);
+                                ShowAlert(response.message,'danger');
+                            }
+                        })
+                    }
+                });
+        }
+
+
+        function ShowAlert(message, type) {
+            Swal.fire({
+                title: type === 'success' ? 'Success' : 'Error!',
+                text: message,
+                icon: type,
+                confirmButtonText: 'OK'
+            });
+        }
+    </script>
+
+}
+
+<style>
+    .error {
+        color: red;
+    }
+</style>
+
+
+<div class="container mt-4">
+    <h2>Contact List</h2>
+    <button type="button" class="btn btn-primary m-3" data-toggle="modal"
+        onclick="clearData(); $('#addcontact').modal('show'); $('#btnsave').text('Add Contact');$('#exampleModalLongTitle').text('Add Contact');">
+        &#43;
+    </button>
+
+    <div id="responseMessage" class="mt-3 alert-danger container"></div>
+
+    <table class="table table-bordered" id="contactTable">
+        <thead>
+            <tr>
+                <th>Sr. No.</th>
+                <th>Edit</th>
+                <th>Profile pic</th>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Group</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Status</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="addcontact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Add Contact</h5>
+                <button type="button" onclick="$('#addcontact').modal('hide'); " aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+
+                <div class="container">
+                    <form enctype="multipart/form-data" id="contactForm">
+                        <div class="modal-body">
+                            <input type="hidden" id="c_ContactId" value="0">
+                            @* <input type="hidden" id="C_UserId" value="0"> *@
+                            @* <input type="hidden" asp-for="c_Image" id="image"> *@
+                            <div class="mt-3">
+                                <label class="control-label mt-1" for="name">Name:</label>
+                                <div class="mt-1">
+                                    <input type="text" class="form-control" id="name" name="name"
+                                        placeholder="Enter Name">
+                                </div>
+                            </div>
+
+                            <div class="mt-3">
+                                <label class="control-label mt-1" for="email">Email:</label>
+                                <div class="mt-1">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="Enter email">
+                                </div>
+                            </div>
+
+                            <div class="mt-3">
+                                <label class="control-label mt-1" for="address">Address:</label>
+                                <div class="mt-1">
+                                    <input type="text" class="form-control" name="address" id="address"
+                                        placeholder="Enter address">
+                                </div>
+                            </div>
+
+                            <div class="mt-3">
+                                <label class="control-label mt-1" for="mobile">Mobile:</label>
+                                <div class="mt-1">
+                                    <input type="text" class="form-control" name="mobile" id="mobile"
+                                        placeholder="Enter mobile">
+                                </div>
+                            </div>
+
+                            <div class="mt-3">
+                                <label class="control-label mt-1" for="group">Group:</label>
+                                <div class="mt-1 group_checkbox">
+                                    <input class="group" type="checkbox" name="group1" id="relative" value="Relative">
+                                    Relatives
+                                    <input class="group" type="checkbox" id="friend" name="group1" value="Friend">
+                                    Friends
+                                    <input class="group" type="checkbox" id="social" name="group1" value="Social">
+                                    Social
+                                    <input class="group" type="checkbox" id="professional" name="group1"
+                                        value="Professional">
+                                    Professional
+                                </div>
+                            </div>
+
+                            <div class="mt-3">
+                                <label class="control-label mt-1" for="status">Status:</label>
+
+                                <select id="status" class="form-control">
+                                    <option value="Favorite">Favorite</option>
+                                    <option value="Active">Active</option>
+                                    <option value="In-Active">In-Active</option>
+                                </select>
+
+                            </div>
+                            <div class="mt-3">
+                                <label class="control-label mt-1" for="ContactPicture">Image:</label>
+                                <div class="mt-1">
+                                    <input type="file" class="form-control" id="ContactPicture">
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div>
+                            <img src="/contact_images/3baa8ad7-8b6b-4f9c-bc50-2c6f99d56baa.jpg" alt="" id="image"
+                                style="width: 100px; height: 100px;">
+                            <br>
+                            <span id="imageName" style="font-size: 12px">Default Image</span>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" onclick="$('#addcontact').modal('hide');">Close</button>
+                <button type="button" class="btn btn-primary" id="btnsave">Add Contact</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,58 @@
+@{
+    ViewData["Title"] = "Contact List";
+    Layout = "../Shared/_ContactLayout.cshtml";
+}
+@using ContactApp;
+@model IEnumerable<t_Contact>;
+
+
+<div class="container mt-4">
+
+    <h2>Contact List</h2>
+    <div id="responseMessage" class="mt-3">
+        <div class="alert @(TempData["Messsage"]!=null ? "alert-primary" : "")">
+            @TempData["Message"]
+        </div>
+    </div>
+    <table class="table table-bordered" id="contactTable">
+        <thead>
+            <tr>
+                <th>Edit</th>
+                <th>Profile pic</th>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Group</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Status</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var contact in Model)
+            {
+                <tr>
+                    <td>
+                        <a href="@Url.Action("Create", "Contact", new { id = contact.c_ContactId })"
+                            class="btn btn-sm btn-primary">Edit</a>
+                    </td>
+                    <td><img src="~/contact_images/@contact.c_Image" alt="img" style="height: 50px; width: 50px; border-radius: 50%;"></td>
+                    <td>@contact.c_ContactId</td>
+                    <td>@contact.c_ContactName</td>
+                    <td>@contact.c_Email</td>
+                    <td>@contact.c_Group</td>
+                    <td>@contact.c_Address</td>
+                    <td>@contact.c_Mobile</td>
+                    <td>@contact.c_Status</td>
+                    <td>
+                        <a href="@Url.Action("Delete", "Contact", new { id = contact.c_ContactId })"
+                            class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@* <a href="@Url.Action("Create", "Contact")" class="btn btn-primary">Add New Contact</a> *@

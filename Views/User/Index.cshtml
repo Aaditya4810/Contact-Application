@@ -1,0 +1,11 @@
+@{
+    ViewData["Title"]="User Profile";
+    Layout = "../Shared/_ContactLayout.cshtml";
+}
+<h1 style="color: blue;">User, @Context.Session.GetString("UserName")</h1>
+<img src="~/profile_images/@Context.Session.GetString("img")" alt="img" style="height: 200px; width: 200px; border-radius: 50%;">
+
+@* <h4>@Context.Session.GetInt32("UserId")</h4> *@
+<h5>Welcome, @Context.Session.GetString("UserName")</h5>
+<h5>Email : @Context.Session.GetString("UserEmail")</h5>
+<h5>Address : @Context.Session.GetString("Address")</h5>

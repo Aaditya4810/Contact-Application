@@ -1,0 +1,537 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ContactApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ContactApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\03b6f3bb-6e7c-4263-be08-fac3f50fe99c.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\03b6f3bb-6e7c-4263-be08-fac3f50fe99c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\05c70c69-a234-4250-8e13-fbf585b83a40.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\05c70c69-a234-4250-8e13-fbf585b83a40.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\05fdd17a-996d-4057-a9d1-870d72d2b6bb.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\05fdd17a-996d-4057-a9d1-870d72d2b6bb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\08d27a32-5ad5-40f6-849a-451b59343881.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\08d27a32-5ad5-40f6-849a-451b59343881.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\166c05d3-0a9f-47d7-a0e8-f9c88ed2250c.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\166c05d3-0a9f-47d7-a0e8-f9c88ed2250c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\1daa1939-50dc-45e5-8047-d398e1ca9fed.jpeg",
+      "PackagePath": "staticwebassets\\contact_images\\1daa1939-50dc-45e5-8047-d398e1ca9fed.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\3049a03b-6458-4a98-91d8-80adc9014690.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\3049a03b-6458-4a98-91d8-80adc9014690.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\35d46900-ed1b-4a91-8389-21d8e7c5adde.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\35d46900-ed1b-4a91-8389-21d8e7c5adde.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\3baa8ad7-8b6b-4f9c-bc50-2c6f99d56baa.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\3baa8ad7-8b6b-4f9c-bc50-2c6f99d56baa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\42aceee5-aa52-4807-ad09-abce99c929de.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\42aceee5-aa52-4807-ad09-abce99c929de.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\48dc31c5-e3dd-4975-89ef-d186f4843d72.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\48dc31c5-e3dd-4975-89ef-d186f4843d72.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\495e3985-77c5-4326-8850-b63e67bb7f9f.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\495e3985-77c5-4326-8850-b63e67bb7f9f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\49c12489-7762-4316-bb25-da6a7a2c4293.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\49c12489-7762-4316-bb25-da6a7a2c4293.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\49ca4085-c141-46d5-8529-bdc66570aad6.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\49ca4085-c141-46d5-8529-bdc66570aad6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\5266939f-ea3d-4a2a-9f95-6eb674e58524.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\5266939f-ea3d-4a2a-9f95-6eb674e58524.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\589d55a1-a0cc-4ab8-9d5d-1aaefa66630c.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\589d55a1-a0cc-4ab8-9d5d-1aaefa66630c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\59fc01b4-a6c5-4f70-a0f4-1f13605bb9bc.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\59fc01b4-a6c5-4f70-a0f4-1f13605bb9bc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\5cc83ce9-e407-4c51-a5f3-c2e61893c2bf.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\5cc83ce9-e407-4c51-a5f3-c2e61893c2bf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\63345502-cb03-4cb1-92c4-b93f1a104938.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\63345502-cb03-4cb1-92c4-b93f1a104938.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\644562dd-5edd-47cc-9cb1-ba25337c15b8.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\644562dd-5edd-47cc-9cb1-ba25337c15b8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\6748df3a-4574-4b1d-abc1-0189e03d61db.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\6748df3a-4574-4b1d-abc1-0189e03d61db.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\6787cb9d-95cf-4408-9ddd-b5a66b2438af.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\6787cb9d-95cf-4408-9ddd-b5a66b2438af.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\7b24f833-b167-40cc-954c-88ad6e556984.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\7b24f833-b167-40cc-954c-88ad6e556984.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\7ff57677-2cf6-4b21-bf51-bec392435c9a.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\7ff57677-2cf6-4b21-bf51-bec392435c9a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\847780c5-9e15-4286-a4f5-59a51062bdc9.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\847780c5-9e15-4286-a4f5-59a51062bdc9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\92325229-5d4a-4a24-b9b3-59ce02859589.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\92325229-5d4a-4a24-b9b3-59ce02859589.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\a3ef6174-c516-456a-a65a-d6268fc76276.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\a3ef6174-c516-456a-a65a-d6268fc76276.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\a58a996c-04c9-49ae-8352-81fd379a912e.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\a58a996c-04c9-49ae-8352-81fd379a912e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\a6e0a927-d625-4d85-b188-7d28b4de5c01.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\a6e0a927-d625-4d85-b188-7d28b4de5c01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\a97751f1-7bfc-43ae-b864-b908499f7497.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\a97751f1-7bfc-43ae-b864-b908499f7497.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\ab260656-9d02-4f1b-a1ca-ba58e593d0ac.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\ab260656-9d02-4f1b-a1ca-ba58e593d0ac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\ak@kmsdm.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\ak@kmsdm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\b72b3b53-6ad1-46e4-b851-6f3365151d86.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\b72b3b53-6ad1-46e4-b851-6f3365151d86.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\be59658c-3afe-4a57-a620-f06dbd9e1ff6.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\be59658c-3afe-4a57-a620-f06dbd9e1ff6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\c0b48056-3e26-4d7f-91b4-040ca81e986b.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\c0b48056-3e26-4d7f-91b4-040ca81e986b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\c4d78db8-54f8-4b87-80ae-d56e79c1f3ca.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\c4d78db8-54f8-4b87-80ae-d56e79c1f3ca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\cdad33dd-a696-446c-a5fc-3fa0ca28217e.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\cdad33dd-a696-446c-a5fc-3fa0ca28217e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\def80ddb-2ccb-4823-b4e2-1da564d26703.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\def80ddb-2ccb-4823-b4e2-1da564d26703.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\e0700951-8242-4631-8f6d-4d331b3b83ce.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\e0700951-8242-4631-8f6d-4d331b3b83ce.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\e4b68396-edd6-4c01-bcee-b5676430c8c6.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\e4b68396-edd6-4c01-bcee-b5676430c8c6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\eff6be65-a021-4743-9d44-3d487245156c.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\eff6be65-a021-4743-9d44-3d487245156c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\f193fdca-a158-494e-9a07-7a0ef90b8f00.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\f193fdca-a158-494e-9a07-7a0ef90b8f00.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\f4c575e0-097a-4d9c-9441-ce7a3af5b5d8.jpeg",
+      "PackagePath": "staticwebassets\\contact_images\\f4c575e0-097a-4d9c-9441-ce7a3af5b5d8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\image.png",
+      "PackagePath": "staticwebassets\\contact_images\\image.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\isha@cxjvn.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\isha@cxjvn.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\jd287@gmail.com.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\jd287@gmail.com.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\jknb@677831.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\jknb@677831.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\kdsjfsgd@wet.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\kdsjfsgd@wet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\khu@dk.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\khu@dk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\kjjldcj@876734.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\kjjldcj@876734.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\prince1533@gmail.com.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\prince1533@gmail.com.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\prince1543@gmail.com.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\prince1543@gmail.com.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\contact_images\\yo@498.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\yo@498.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\profile_images\\aa@13gmail.com.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\aa@13gmail.com.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\profile_images\\aaditya.cha.aa@gmail.com.jpeg",
+      "PackagePath": "staticwebassets\\profile_images\\aaditya.cha.aa@gmail.com.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\profile_images\\aaditya.cha.aa@gmail.com.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\aaditya.cha.aa@gmail.com.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\profile_images\\aaditya@ghxv.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\aaditya@ghxv.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\profile_images\\abhi@123.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\abhi@123.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\profile_images\\dp@gmail.com.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\dp@gmail.com.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\profile_images\\dsjdfk@jhfd.jpeg",
+      "PackagePath": "staticwebassets\\profile_images\\dsjdfk@jhfd.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\profile_images\\ishan@123.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\ishan@123.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\profile_images\\jd285467@gmail.com.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\jd285467@gmail.com.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\profile_images\\jd287@gmail.com.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\jd287@gmail.com.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\profile_images\\jd@13feu.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\jd@13feu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\profile_images\\prince153@gmail.com.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\prince153@gmail.com.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\profile_images\\rahul@123.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\rahul@123.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\profile_images\\shivam@123gmail.com.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\shivam@123gmail.com.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\GitUploads\\ContactApp\\wwwroot\\profile_images\\suji@gmail.com.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\suji@gmail.com.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ContactApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ContactApp.props",
+      "PackagePath": "build\\ContactApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ContactApp.props",
+      "PackagePath": "buildMultiTargeting\\ContactApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ContactApp.props",
+      "PackagePath": "buildTransitive\\ContactApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

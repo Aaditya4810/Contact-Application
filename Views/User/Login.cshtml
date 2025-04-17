@@ -1,0 +1,80 @@
+@model vm_Login
+
+@section Scripts {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        @* function ShowAlert(message, type) {
+            Swal.fire({
+                title: type === 'success' ? 'Success' : 'Error!',
+                text: message,
+                icon: type,
+                confirmButtonText: 'OK'
+            });
+        } *@
+
+        $(document).ready(function () {
+            var successMessage = "@TempData["Success"]";
+            var errorMessage = "@TempData["Error"]";
+
+            if (successMessage) {
+                Swal.fire({
+                    title: 'Success',
+                    text: successMessage,
+                    icon: 'success',
+                    confirmButtonText: 'OK'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        window.location.href = '@Url.Action("Index", "User")';
+                    }
+                });
+            }
+
+            if (errorMessage) {
+                Swal.fire({
+                    title: 'Error',
+                    text: errorMessage,
+                    icon: 'error',
+                    confirmButtonText: 'OK'
+                });
+            }
+
+        });        
+    </script>
+}
+
+
+<div class="container mt-5" style="border: 1px solid #ccc; width: 70%;padding:20px">
+    <h3>Login</h3>
+    <br />
+    <form asp-controller="User" asp-action="Login" method="post">
+        <div class="mt-3">
+            <label class="control-label mt-1" for="email">Email:</label>
+            <div class="mt-1">
+                <input type="email" class="form-control" asp-for="c_Email" id="email" placeholder="Enter email">
+            </div>
+            <span class="text-danger" asp-validation-for="c_Email"></span>
+        </div>
+        <div class="mt-3">
+            <label class="control-label mt-1" for="pwd">Password:</label>
+            <div class="mt-1">
+                <input type="password" class="form-control" asp-for="c_Password" id="pwd" placeholder="Enter password">
+            </div>
+            <span class="text-danger" asp-validation-for="c_Password"></span>
+        </div>
+        <div id="responseMessage" class="mt-3">
+            <div class="alert @(TempData["Message"] != null ? "alert-danger" : "")">
+                @TempData["Message"]
+            </div>
+
+        </div>
+        <div class="mt-3">
+            <div class="mt-1">
+                <button type="submit" id="login" class="btn btn-primary">Login</button>
+            </div>
+        </div>
+        <p class="m-3">Do'nt have an account? <a href="@Url.Action("Register", "User")">Register</a></p>
+    </form>
+
+</div>
